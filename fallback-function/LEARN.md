@@ -1,4 +1,4 @@
-## Title: Solidity `fallback` and `recieve` functions
+## Solidity `fallback` and `recieve` functions
 
 In this quest, we are going to learn about the `fallback()` and the `receive()` functions in solidity, and we're going to learn how they can be useful in our code.
 
@@ -100,7 +100,7 @@ The logic for handling the two scenarios mentioned above had to be split to avoi
 
 and the syntax for the fallback function was changed to the following:
 ```javascript
-pragma solidity ^0.5.0;
+pragma solidity ^0.6.0;
 contract Receiver {
     fallback() external payable {
         // React to receiving ether
